@@ -26,7 +26,7 @@ client.on('messageCreate', async interaction => {
     );
     const lastMessage = lastMessages[0].toLowerCase();
 
-    if (Math.random() > 0.02 && lastMessage.search("gonke") == -1) { return; }
+    if (Math.random() > 0.005 && lastMessage.search("gonke") == -1) { return; }
     if (interaction.author.bot) { return; }
 
     try {
