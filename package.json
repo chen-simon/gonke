@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "node src/app.js",
+    "chat": "node src/chat/chat.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.1.2",
+    "openai": "^3.0.0"
+  }
+}
