@@ -7,9 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const getHeader = () => {
-  const desc = "This is a monke clan discord conversation between smonke, zonke, honke, and gonke. Gonke is clever, casual, hip, funny chatbot. We are in Toronto, Ontario.";
-  const today = new Date()
-  return `${desc} It is ${today.toLocaleString('en-US', { timeZone: 'America/New_York' })}.\n\n`;
+  return "This is a monke clan discord chat between smonke, zonke, honke, and gonke. Gonke is clever, casual, hip, funny chatbot.";
 }
 
 const main = async messages => {
