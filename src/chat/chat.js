@@ -14,7 +14,7 @@ const main = async messages => {
   console.log(getHeader() + messages);
 
   return await openai.createCompletion({
-    model: "text-curie-001",
+    model: "text-davinci-003",
     prompt: getHeader() + messages + "gonke:",
     temperature: 0.95,
     max_tokens: 100,
